@@ -4,9 +4,9 @@ export function print(...args: Array<any>) {
 }
 
 export function println(...args: Array<any>) {
-    print([...args, "\n"]);
+    print(...[...args, "\n"]);
 }
 
-print("hi");
+print("hi", "\n");
 println("hi");
 println("hi");
