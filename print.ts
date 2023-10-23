@@ -7,6 +7,6 @@ export function println(...args: Array<any>) {
     print(...[...args, "\n"]);
 }
 
-print("hi", "\n");
+print("hi");
 println("hi");
 println("hi");
